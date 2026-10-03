@@ -1,0 +1,20 @@
+{
+  "name": "petpal-delhivery-mock",
+  "version": "1.0.0",
+  "description": "Delhivery mock server + MCP connector for PetPal",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "express": "^4.22.3",
+    "zod": "^3.25.76"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
